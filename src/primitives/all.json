@@ -7,7 +7,7 @@
             "aqua": {
               "8": {
                 "$type": "color",
-                "$value": "rgba(6, 132, 132, 0.09)"
+                "$value": "rgba(6, 132, 132, 0.08)"
               },
               "16": {
                 "$type": "color",
@@ -559,7 +559,7 @@
         "grey": {
           "0": {
             "$type": "color",
-            "$value": "#000000"
+            "$value": "red"
           },
           "37": {
             "$type": "color",
