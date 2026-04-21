@@ -1,0 +1,836 @@
+{
+  "wel": {
+    "sem": {
+      "number": {
+        "disabledOpacity": {
+          "$type": "number",
+          "$value": "{wel.web.bSem.number.disabledOpacity}",
+          "$description": "Opacity value for all disabled components."
+        }
+      },
+      "spacingStatic": {
+        "inline": {
+          "3xs": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.inline.3xs}",
+            "$description": "Hairline spacing for very tight layouts."
+          },
+          "2xs": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.inline.2xs}",
+            "$description": "Minimal spacing between closely related elements"
+          },
+          "xs": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.inline.xs}",
+            "$description": "Small spacing for compact groups and navigation"
+          },
+          "sm": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.inline.sm}",
+            "$description": "Medium spacing for standard inline layouts"
+          },
+          "md": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.inline.md}",
+            "$description": "Large spacing for comfortable reading and interaction"
+          },
+          "lg": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.inline.lg}",
+            "$description": "Extra large spacing for clear visual separation"
+          },
+          "xl": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.inline.xl}",
+            "$description": "Double extra large spacing for major section breaks"
+          },
+          "2xl": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.inline.2xl}",
+            "$description": "Triple extra large spacing for prominent separation"
+          },
+          "3xl": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.inline.3xl}",
+            "$description": "Quadruple extra large spacing for hero sections"
+          },
+          "4xl": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.inline.4xl}",
+            "$description": "Five times extra large spacing for dramatic separation"
+          },
+          "5xl": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.inline.5xl}",
+            "$description": "Six times extra large spacing for maximum emphasis"
+          }
+        },
+        "stack": {
+          "3xs": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.stack.3xs}",
+            "$description": "Minimal vertical spacing between tightly related elements"
+          },
+          "2xs": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.stack.2xs}",
+            "$description": "Very small vertical gaps between closely related items"
+          },
+          "xs": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.stack.xs}",
+            "$description": "Small vertical spacing for compact layouts"
+          },
+          "sm": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.stack.sm}",
+            "$description": "Standard vertical spacing between related elements"
+          },
+          "md": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.stack.md}",
+            "$description": "Comfortable vertical spacing for grouped content"
+          },
+          "lg": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.stack.lg}",
+            "$description": "Large vertical spacing for distinct content sections"
+          },
+          "xl": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.stack.xl}",
+            "$description": "Extra large vertical spacing for major content divisions"
+          },
+          "2xl": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.stack.2xl}",
+            "$description": "Maximum vertical spacing for significant content separation"
+          }
+        },
+        "inset": {
+          "3xs": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.inset.3xs}",
+            "$description": "Minimal uniform internal padding for very compact elements"
+          },
+          "2xs": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.inset.2xs}",
+            "$description": "Extra small uniform padding for tight layouts"
+          },
+          "xs": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.inset.xs}",
+            "$description": "Small uniform padding for compact components"
+          },
+          "sm": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.inset.sm}",
+            "$description": "Small uniform internal spacing for small containers"
+          },
+          "md": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.inset.md}",
+            "$description": "Standard uniform padding for most UI components"
+          },
+          "lg": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.inset.lg}",
+            "$description": "Comfortable uniform padding for content areas"
+          },
+          "xl": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.inset.xl}",
+            "$description": "Large uniform padding for spacious layouts"
+          },
+          "2xl": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.inset.2xl}",
+            "$description": "maximum uniform padding for major containers"
+          }
+        },
+        "insetSquish": {
+          "xs-h": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.insetSquish.xs-h}",
+            "$description": "minimum horizontal padding. Ratio: 2:1 horizontal emphasis"
+          },
+          "xs-v": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.insetSquish.xs-v}",
+            "$description": "Minimum vertical padding. Ratio: 2:1 horizontal emphasis"
+          },
+          "sm-h": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.insetSquish.sm-h}",
+            "$description": "Extra small horizontal padding. Ratio: 1.5:1 horizontal emphasis"
+          },
+          "sm-v": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.insetSquish.sm-v}",
+            "$description": "Extra small vertical padding. Ratio: 1.5:1 horizontal emphasis"
+          },
+          "md-h": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.insetSquish.md-h}",
+            "$description": "Standard horizontal padding. Ratio: 1.33:1 horizontal emphasis"
+          },
+          "md-v": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.insetSquish.md-v}",
+            "$description": "Standard vertical padding. Ratio: 1.33:1 horizontal emphasis"
+          },
+          "lg-h": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.insetSquish.lg-h}",
+            "$description": "Large horizontal padding. Ratio: 1.25:1 horizontal emphasis"
+          },
+          "lg-v": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.insetSquish.lg-v}",
+            "$description": "Large vertical padding. Ratio: 1.25:1 horizontal emphasis"
+          },
+          "xl-h": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.insetSquish.xl-h}",
+            "$description": "maximum horizontal padding. Ratio: 1.5:1 horizontal emphasis"
+          },
+          "xl-v": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.insetSquish.xl-v}",
+            "$description": "maximum vertical padding. Ratio: 1.5:1 horizontal emphasis"
+          }
+        },
+        "insetStretch": {
+          "sm-h": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.insetStretch.sm-h}",
+            "$description": "Minimum horizontal padding. Ratio: 1:1.33 vertical emphasis"
+          },
+          "sm-v": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.insetStretch.sm-v}",
+            "$description": "Minimum vertical padding. Ratio: 1:1.33 vertical emphasis"
+          },
+          "md-h": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.insetStretch.md-h}",
+            "$description": "Small horizontal padding. Ratio: 1:1.5 vertical emphasis"
+          },
+          "md-v": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.insetStretch.md-v}",
+            "$description": "Small vertical padding. Ratio: 1:1.5 vertical emphasis"
+          },
+          "lg-h": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.insetStretch.lg-h}",
+            "$description": "Standard horizontal padding. Ratio: 1:2 vertical emphasis"
+          },
+          "lg-v": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.insetStretch.lg-v}",
+            "$description": "Standard vertical padding. Ratio: 1:2 vertical emphasis"
+          },
+          "xl-h": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.insetStretch.xl-h}",
+            "$description": "Large horizontal padding. Ratio: 1:1.33 vertical emphasis"
+          },
+          "xl-v": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.insetStretch.xl-v}",
+            "$description": "Large vertical padding. Ratio: 1:1.33 vertical emphasis"
+          }
+        },
+        "pinchHorizontal": {
+          "2xs": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.pinchHorizontal.2xs}",
+            "$description": "Minimum space applied only on the right and/or left of an element, resulting in a vertical compression."
+          },
+          "xs": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.pinchHorizontal.xs}",
+            "$description": "Extra small space applied only on the right and/or left of an element, resulting in a vertical compression."
+          },
+          "sm": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.pinchHorizontal.sm}",
+            "$description": "Small space applied only on the right and/or left of an element, resulting in a vertical compression."
+          },
+          "md": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.pinchHorizontal.md}",
+            "$description": "Standard space applied only on the right and/or left of an element, resulting in a vertical compression."
+          },
+          "lg": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.pinchHorizontal.lg}",
+            "$description": "Large space applied only on the right and/or left of an element, resulting in a vertical compression."
+          },
+          "xl": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.pinchHorizontal.xl}",
+            "$description": "Extra large space applied only on the right and/or left of an element, resulting in a vertical compression."
+          },
+          "2xl": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.pinchHorizontal.2xl}",
+            "$description": "Maximum space applied only on the right and/or left of an element, resulting in a vertical compression."
+          }
+        },
+        "pinchVertical": {
+          "2xs": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.pinchVertical.2xs}",
+            "$description": "Minimum space applied only on the top and/or bottom of an element, resulting in a horizontal compression."
+          },
+          "xs": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.pinchVertical.xs}",
+            "$description": "Extra small space applied only on the top and/or bottom of an element, resulting in a horizontal compression."
+          },
+          "sm": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.pinchVertical.sm}",
+            "$description": "Small space applied only on the top and/or bottom of an element, resulting in a horizontal compression."
+          },
+          "md": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.pinchVertical.md}",
+            "$description": "Standard space applied only on the top and/or bottom of an element, resulting in a horizontal compression."
+          },
+          "lg": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.pinchVertical.lg}",
+            "$description": "Large space applied only on the top and/or bottom of an element, resulting in a horizontal compression."
+          },
+          "xl": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.pinchVertical.xl}",
+            "$description": "Extra large space applied only on the top and/or bottom of an element, resulting in a horizontal compression."
+          },
+          "2xl": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.pinchVertical.2xl}",
+            "$description": "Maximum space applied only on the top and/or bottom of an element, resulting in a horizontal compression."
+          }
+        },
+        "scale": {
+          "none": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.scale.none}",
+            "$description": "0px generic value. Use this token if the system doesn't provide you a natural one suited for your need."
+          },
+          "3xs": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.scale.3xs}",
+            "$description": "Minimal generic value (1px). Use this token if the system doesn't provide you a natural one suited for your need."
+          },
+          "2xs": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.scale.2xs}",
+            "$description": "Twice extra small generic value (2px). Use this token if the system doesn't provide you a natural one suited for your need."
+          },
+          "xs": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.scale.xs}",
+            "$description": "Extra small generic value (4px).  Use this token if the system doesn't provide you a natural one suited for your need."
+          },
+          "sm": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.scale.sm}",
+            "$description": "Small generic value (8px).  Use this token if the system doesn't provide you a natural one suited for your need."
+          },
+          "md": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.scale.md}",
+            "$description": "Standard generic value (12px).  Use this token if the system doesn't provide you a natural one suited for your need."
+          },
+          "lg": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.scale.lg}",
+            "$description": "Large generic value (16px).  Use this token if the system doesn't provide you a natural one suited for your need."
+          },
+          "xl": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.scale.xl}",
+            "$description": "Extra large generic value (20px).  Use this token if the system doesn't provide you a natural one suited for your need."
+          },
+          "2xl": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.scale.2xl}",
+            "$description": "Twice extra large generic value (24px).  Use this token if the system doesn't provide you a natural one suited for your need."
+          },
+          "3xl": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.scale.3xl}",
+            "$description": "3 times extra large generic value (32px).  Use this token if the system doesn't provide you a natural one suited for your need."
+          },
+          "4xl": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.scale.4xl}",
+            "$description": "4 times extra large generic value (40px).  Use this token if the system doesn't provide you a natural one suited for your need."
+          },
+          "5xl": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.scale.5xl}",
+            "$description": "5 times extra large generic value (48px).  Use this token if the system doesn't provide you a natural one suited for your need."
+          },
+          "6xl": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.scale.6xl}",
+            "$description": "maximim generic value (64px).  Use this token if the system doesn't provide you a natural one suited for your need."
+          },
+          "xl-neg": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.scale.xl-neg}",
+            "$description": "Negative generic value (-16px).  Use this token if the system doesn't provide you a natural one suited for your need."
+          },
+          "2xl-neg": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.scale.2xl-neg}",
+            "$description": "Negative generic value (-28px).  Use this token if the system doesn't provide you a natural one suited for your need."
+          },
+          "3xl-neg": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.scale.3xl-neg}",
+            "$description": "Negative generic value (-32px).  Use this token if the system doesn't provide you a natural one suited for your need."
+          },
+          "4xl-neg": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.scale.4xl-neg}",
+            "$description": "Negative generic value (-48px).  Use this token if the system doesn't provide you a natural one suited for your need."
+          },
+          "5xl-neg": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingStatic.scale.5xl-neg}",
+            "$description": "Minimal negative generic value (-88px).  Use this token if the system doesn't provide you a natural one suited for your need."
+          }
+        }
+      },
+      "sizing": {
+        "icon": {
+          "2xs": {
+            "$type": "sizing",
+            "$value": "{wel.web.bSem.sizing.icon.2xs}",
+            "$description": "Minimal icons for dense interfaces or inline text elements."
+          },
+          "xs": {
+            "$type": "sizing",
+            "$value": "{wel.web.bSem.sizing.icon.xs}",
+            "$description": "Small accent icons, typically used within form elements"
+          },
+          "sm": {
+            "$type": "sizing",
+            "$value": "{wel.web.bSem.sizing.icon.sm}",
+            "$description": "Standard small icons for UI controls and navigation"
+          },
+          "md": {
+            "$type": "sizing",
+            "$value": "{wel.web.bSem.sizing.icon.md}",
+            "$description": "Medium icons for primary actions and content areas"
+          },
+          "lg": {
+            "$type": "sizing",
+            "$value": "{wel.web.bSem.sizing.icon.lg}",
+            "$description": "Large icons for featured content and prominent actions"
+          },
+          "xl": {
+            "$type": "sizing",
+            "$value": "{wel.web.bSem.sizing.icon.xl}",
+            "$description": "Extra large icons for hero sections and primary features"
+          },
+          "2xl": {
+            "$type": "sizing",
+            "$value": "{wel.web.bSem.sizing.icon.2xl}",
+            "$description": "Very large icons for major interface elements"
+          },
+          "3xl": {
+            "$type": "sizing",
+            "$value": "{wel.web.bSem.sizing.icon.3xl}",
+            "$description": "Maximum size icons for splash screens and brand elements"
+          }
+        }
+      },
+      "fontFamilies": {
+        "display": {
+          "$type": "fontFamilies",
+          "$value": "{wel.web.bSem.fontFamilies.display}",
+          "$description": "Display font family"
+        },
+        "title": {
+          "$type": "fontFamilies",
+          "$value": "{wel.web.bSem.fontFamilies.title}",
+          "$description": "Title font family"
+        },
+        "subtitle": {
+          "$type": "fontFamilies",
+          "$value": "{wel.web.bSem.fontFamilies.subtitle}",
+          "$description": "Subtitle font family"
+        },
+        "body": {
+          "$type": "fontFamilies",
+          "$value": "{wel.web.bSem.fontFamilies.body}",
+          "$description": "Body font family"
+        },
+        "detail": {
+          "$type": "fontFamilies",
+          "$value": "{wel.web.bSem.fontFamilies.detail}",
+          "$description": "Detail font family"
+        },
+        "caption": {
+          "$type": "fontFamilies",
+          "$value": "{wel.web.bSem.fontFamilies.caption}",
+          "$description": "Caption font family"
+        },
+        "label": {
+          "$type": "fontFamilies",
+          "$value": "{wel.web.bSem.fontFamilies.label}",
+          "$description": "Label font family"
+        },
+        "input": {
+          "$type": "fontFamilies",
+          "$value": "{wel.web.bSem.fontFamilies.input}",
+          "$description": "Input font family"
+        },
+        "link": {
+          "$type": "fontFamilies",
+          "$value": "{wel.web.bSem.fontFamilies.link}",
+          "$description": "Link font family"
+        }
+      },
+      "fontWeights": {
+        "display": {
+          "$type": "fontWeights",
+          "$value": "{wel.web.bSem.fontWeights.display}",
+          "$description": "Default emphasis display font weight"
+        },
+        "title": {
+          "$type": "fontWeights",
+          "$value": "{wel.web.bSem.fontWeights.title}",
+          "$description": "Default emphasis title font weight"
+        },
+        "subtitle": {
+          "default": {
+            "$type": "fontWeights",
+            "$value": "{wel.web.bSem.fontWeights.subtitle.default}",
+            "$description": "Default emphasis subtitle font weight"
+          },
+          "alternative": {
+            "$type": "fontWeights",
+            "$value": "{wel.web.bSem.fontWeights.subtitle.alternative}",
+            "$description": "Strong emphasis subtitle font weight"
+          }
+        },
+        "body": {
+          "default": {
+            "$type": "fontWeights",
+            "$value": "{wel.web.bSem.fontWeights.body.default}",
+            "$description": "Default emphasis body font weight"
+          },
+          "strong": {
+            "$type": "fontWeights",
+            "$value": "{wel.web.bSem.fontWeights.body.strong}",
+            "$description": "Strong emphasis body font weight"
+          }
+        },
+        "detail": {
+          "$type": "fontWeights",
+          "$value": "{wel.web.bSem.fontWeights.detail}",
+          "$description": "Default emphasis detail font weight"
+        },
+        "caption": {
+          "default": {
+            "$type": "fontWeights",
+            "$value": "{wel.web.bSem.fontWeights.caption.default}",
+            "$description": "Default emphasis caption font weight"
+          },
+          "strong": {
+            "$type": "fontWeights",
+            "$value": "{wel.web.bSem.fontWeights.caption.strong}",
+            "$description": "Default emphasis caption font weight"
+          }
+        },
+        "label": {
+          "default": {
+            "$type": "fontWeights",
+            "$value": "{wel.web.bSem.fontWeights.label.default}",
+            "$description": "Default emphasis label font weight"
+          },
+          "strong": {
+            "$type": "fontWeights",
+            "$value": "{wel.web.bSem.fontWeights.label.strong}",
+            "$description": "Default emphasis label font weight"
+          }
+        },
+        "input": {
+          "$type": "fontWeights",
+          "$value": "{wel.web.bSem.fontWeights.input}",
+          "$description": "Default emphasis input font weight"
+        },
+        "link": {
+          "$type": "fontWeights",
+          "$value": "{wel.web.bSem.fontWeights.link}",
+          "$description": "Default emphasis link font weight"
+        }
+      },
+      "letterSpacing": {
+        "display": {
+          "condensed": {
+            "$type": "letterSpacing",
+            "$value": "{wel.web.bSem.letterSpacing.display.condensed}",
+            "$description": "Condensed display letter spacing"
+          },
+          "wide": {
+            "$type": "letterSpacing",
+            "$value": "{wel.web.bSem.letterSpacing.display.wide}",
+            "$description": "Wide display letter spacing"
+          }
+        },
+        "title": {
+          "$type": "letterSpacing",
+          "$value": "{wel.web.bSem.letterSpacing.title}",
+          "$description": "Default detail letter spacing"
+        },
+        "subtitle": {
+          "$type": "letterSpacing",
+          "$value": "{wel.web.bSem.letterSpacing.subtitle}",
+          "$description": "Default detail letter spacing"
+        },
+        "body": {
+          "$type": "letterSpacing",
+          "$value": "{wel.web.bSem.letterSpacing.body}",
+          "$description": "Default detail letter spacing"
+        },
+        "detail": {
+          "$type": "letterSpacing",
+          "$value": "{wel.web.bSem.letterSpacing.detail}",
+          "$description": "Default detail letter spacing"
+        },
+        "caption": {
+          "$type": "letterSpacing",
+          "$value": "{wel.web.bSem.letterSpacing.caption}",
+          "$description": "Default detail letter spacing"
+        },
+        "label": {
+          "$type": "letterSpacing",
+          "$value": "{wel.web.bSem.letterSpacing.label}",
+          "$description": "Default detail letter spacing"
+        },
+        "input": {
+          "$type": "letterSpacing",
+          "$value": "{wel.web.bSem.letterSpacing.input}",
+          "$description": "Default detail letter spacing"
+        },
+        "link": {
+          "$type": "letterSpacing",
+          "$value": "{wel.web.bSem.letterSpacing.link}",
+          "$description": "Default detail letter spacing"
+        }
+      },
+      "textCase": {
+        "display": {
+          "$type": "textCase",
+          "$value": "{wel.web.bSem.textCase.display}",
+          "$description": "Default display text transformation"
+        },
+        "title": {
+          "$type": "textCase",
+          "$value": "{wel.web.bSem.textCase.title}",
+          "$description": "Default title text transformation"
+        },
+        "subtitle": {
+          "$type": "textCase",
+          "$value": "{wel.web.bSem.textCase.subtitle}",
+          "$description": "Default subtitle text transformation"
+        },
+        "body": {
+          "$type": "textCase",
+          "$value": "{wel.web.bSem.textCase.body}",
+          "$description": "Default body text transformation"
+        },
+        "detail": {
+          "$type": "textCase",
+          "$value": "{wel.web.bSem.textCase.detail}",
+          "$description": "Default detail text transformation"
+        },
+        "caption": {
+          "$type": "textCase",
+          "$value": "{wel.web.bSem.textCase.caption}",
+          "$description": "Default caption text transformation"
+        },
+        "label": {
+          "$type": "textCase",
+          "$value": "{wel.web.bSem.textCase.label}",
+          "$description": "Default label text transformation"
+        },
+        "input": {
+          "$type": "textCase",
+          "$value": "{wel.web.bSem.textCase.input}",
+          "$description": "Default input text transformation"
+        },
+        "link": {
+          "$type": "textCase",
+          "$value": "{wel.web.bSem.textCase.link}",
+          "$description": "Default input text transformation"
+        }
+      },
+      "textDecoration": {
+        "display": {
+          "$type": "textDecoration",
+          "$value": "{wel.web.bSem.textDecoration.display}",
+          "$description": "Default display text decoration"
+        },
+        "title": {
+          "$type": "textDecoration",
+          "$value": "{wel.web.bSem.textDecoration.title}",
+          "$description": "Default title text decoration"
+        },
+        "subtitle": {
+          "$type": "textDecoration",
+          "$value": "{wel.web.bSem.textDecoration.subtitle}",
+          "$description": "Default subtitle text decoration"
+        },
+        "body": {
+          "$type": "textDecoration",
+          "$value": "{wel.web.bSem.textDecoration.body}",
+          "$description": "Default body text decoration"
+        },
+        "caption": {
+          "$type": "textDecoration",
+          "$value": "{wel.web.bSem.textDecoration.caption}",
+          "$description": "Default caption text decoration"
+        },
+        "detail": {
+          "$type": "textDecoration",
+          "$value": "{wel.web.bSem.textDecoration.detail}",
+          "$description": "Default detail text decoration"
+        },
+        "label": {
+          "$type": "textDecoration",
+          "$value": "{wel.web.bSem.textDecoration.label}",
+          "$description": "Default label text decoration"
+        },
+        "input": {
+          "$type": "textDecoration",
+          "$value": "{wel.web.bSem.textDecoration.input}",
+          "$description": "Default input text decoration"
+        },
+        "link": {
+          "default": {
+            "$type": "textDecoration",
+            "$value": "{wel.web.bSem.textDecoration.link.default}",
+            "$description": "Default link text decoration"
+          },
+          "alternative": {
+            "$type": "textDecoration",
+            "$value": "{wel.web.bSem.textDecoration.link.alternative}",
+            "$description": "Alternative link text decoration"
+          }
+        }
+      },
+      "borderWidth": {
+        "default": {
+          "$type": "borderWidth",
+          "$value": "{wel.web.bSem.borderWidth.default}",
+          "$description": "Standard border (1px). Usage: standard border."
+        },
+        "none": {
+          "$type": "borderWidth",
+          "$value": "{wel.web.bSem.borderWidth.none}",
+          "$description": "No border. Usage: elements without borders."
+        },
+        "strong": {
+          "$type": "borderWidth",
+          "$value": "{wel.web.bSem.borderWidth.strong}",
+          "$description": "Bold border (2px). Usage: Emphasized borders, focused elements."
+        },
+        "current": {
+          "$type": "borderWidth",
+          "$value": "{wel.web.bSem.borderWidth.current}",
+          "$description": "Heavy border (4px). Usage:  current/selected states, strong emphasis."
+        }
+      },
+      "borderRadius": {
+        "surface": {
+          "$type": "borderRadius",
+          "$value": "{wel.web.bSem.borderRadius.surface}",
+          "$description": "Border radius for background containers, panels, modal windows and other big editiorial containers"
+        },
+        "container-low": {
+          "$type": "borderRadius",
+          "$value": "{wel.web.bSem.borderRadius.container-low}",
+          "$description": "Border radius for tructural wrappers, layout blocks and containers with low emphasis"
+        },
+        "container-high": {
+          "$type": "borderRadius",
+          "$value": "{wel.web.bSem.borderRadius.container-high}",
+          "$description": "Border radius for floating, interactive or high emphasis containers"
+        },
+        "element": {
+          "static-sm": {
+            "$type": "borderRadius",
+            "$value": "{wel.web.bSem.borderRadius.element.static-sm}",
+            "$description": "Border radius for small static (non-interactive) UI elements"
+          },
+          "static-md": {
+            "$type": "borderRadius",
+            "$value": "{wel.web.bSem.borderRadius.element.static-md}",
+            "$description": "Border radius for default static (non-interactive) UI elements"
+          },
+          "static-lg": {
+            "$type": "borderRadius",
+            "$value": "{wel.web.bSem.borderRadius.element.static-lg}",
+            "$description": "Border radius for large static (non-interactive) UI elements"
+          },
+          "interactive-low": {
+            "$type": "borderRadius",
+            "$value": "{wel.web.bSem.borderRadius.element.interactive-low}",
+            "$description": "Border radius for interactive UI elements with low emphasis, like selectable components or secondary actions"
+          },
+          "interactive-high": {
+            "$type": "borderRadius",
+            "$value": "{wel.web.bSem.borderRadius.element.interactive-high}",
+            "$description": "Border radius for interactive UI elements with high emphasis, like actionnable components and CTA"
+          },
+          "full": {
+            "$type": "borderRadius",
+            "$value": "{wel.web.bSem.borderRadius.element.full}",
+            "$description": "Border radius for absolutly round UI elements with no brand customization possible"
+          }
+        },
+        "input": {
+          "$type": "borderRadius",
+          "$value": "{wel.web.bSem.borderRadius.input}",
+          "$description": "Border radius for all kinds of form inputs"
+        }
+      }
+    },
+    "comp": {
+      "checkbox": {
+        "radius": {
+          "$type": "borderRadius",
+          "$value": "{wel.web.bComp.checkbox.radius}",
+          "$description": "Border radius for the checkbox"
+        }
+      },
+      "mapPointer": {
+        "radius": {
+          "$type": "borderRadius",
+          "$value": "{wel.web.bComp.mapPointer.radius}",
+          "$description": "Border radius for pins on the map to show the rates of the hotels in the area"
+        }
+      },
+      "bookingEngine": {
+        "radius": {
+          "$type": "borderRadius",
+          "$value": "{wel.web.bComp.bookingEngine.radius}",
+          "$description": "Border radius for the Booking Engine wrapper"
+        }
+      }
+    }
+  }
+}

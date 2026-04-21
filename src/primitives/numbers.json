@@ -1,0 +1,204 @@
+{
+  "wel": {
+    "prim": {
+      "sizing": {
+        "positive-0": {
+          "$type": "sizing",
+          "$value": "0"
+        },
+        "positive-05": {
+          "$type": "sizing",
+          "$value": "0.5"
+        },
+        "positive-5": {
+          "$type": "sizing",
+          "$value": "0.5"
+        },
+        "positive-1": {
+          "$type": "sizing",
+          "$value": "1"
+        },
+        "positive-2": {
+          "$type": "sizing",
+          "$value": "2"
+        },
+        "positive-3": {
+          "$type": "sizing",
+          "$value": "3"
+        },
+        "positive-4": {
+          "$type": "sizing",
+          "$value": "4"
+        },
+        "positive-6": {
+          "$type": "sizing",
+          "$value": "6"
+        },
+        "positive-8": {
+          "$type": "sizing",
+          "$value": "8"
+        },
+        "positive-10": {
+          "$type": "sizing",
+          "$value": "10"
+        },
+        "positive-12": {
+          "$type": "sizing",
+          "$value": "12"
+        },
+        "positive-14": {
+          "$type": "sizing",
+          "$value": "14"
+        },
+        "positive-16": {
+          "$type": "sizing",
+          "$value": "16"
+        },
+        "positive-18": {
+          "$type": "sizing",
+          "$value": "18"
+        },
+        "positive-20": {
+          "$type": "sizing",
+          "$value": "20"
+        },
+        "positive-22": {
+          "$type": "sizing",
+          "$value": "22"
+        },
+        "positive-24": {
+          "$type": "sizing",
+          "$value": "24"
+        },
+        "positive-26": {
+          "$type": "sizing",
+          "$value": "26"
+        },
+        "positive-28": {
+          "$type": "sizing",
+          "$value": "28"
+        },
+        "positive-30": {
+          "$type": "sizing",
+          "$value": "30"
+        },
+        "positive-32": {
+          "$type": "sizing",
+          "$value": "32"
+        },
+        "positive-36": {
+          "$type": "sizing",
+          "$value": "36"
+        },
+        "positive-40": {
+          "$type": "sizing",
+          "$value": "40"
+        },
+        "positive-44": {
+          "$type": "sizing",
+          "$value": "44"
+        },
+        "positive-48": {
+          "$type": "sizing",
+          "$value": "48"
+        },
+        "positive-50": {
+          "$type": "sizing",
+          "$value": "50"
+        },
+        "positive-52": {
+          "$type": "sizing",
+          "$value": "52"
+        },
+        "positive-56": {
+          "$type": "sizing",
+          "$value": "56"
+        },
+        "positive-62": {
+          "$type": "sizing",
+          "$value": "62"
+        },
+        "positive-64": {
+          "$type": "sizing",
+          "$value": "64"
+        },
+        "positive-68": {
+          "$type": "sizing",
+          "$value": "68"
+        },
+        "positive-72": {
+          "$type": "sizing",
+          "$value": "72"
+        },
+        "positive-76": {
+          "$type": "sizing",
+          "$value": "76"
+        },
+        "positive-78": {
+          "$type": "sizing",
+          "$value": "78"
+        },
+        "positive-80": {
+          "$type": "sizing",
+          "$value": "80"
+        },
+        "positive-84": {
+          "$type": "sizing",
+          "$value": "84"
+        },
+        "positive-96": {
+          "$type": "sizing",
+          "$value": "96"
+        },
+        "positive-100": {
+          "$type": "sizing",
+          "$value": "100"
+        },
+        "negative-1": {
+          "$type": "sizing",
+          "$value": "-1"
+        },
+        "negative-2": {
+          "$type": "sizing",
+          "$value": "-2"
+        },
+        "negative-3": {
+          "$type": "sizing",
+          "$value": "-3"
+        },
+        "negative-4": {
+          "$type": "sizing",
+          "$value": "-4"
+        },
+        "negative-16": {
+          "$type": "sizing",
+          "$value": "-16"
+        },
+        "negative-24": {
+          "$type": "sizing",
+          "$value": "-24"
+        },
+        "negative-28": {
+          "$type": "sizing",
+          "$value": "-28"
+        },
+        "negative-32": {
+          "$type": "sizing",
+          "$value": "-32"
+        },
+        "negative-48": {
+          "$type": "sizing",
+          "$value": "-48"
+        },
+        "negative-72": {
+          "$type": "sizing",
+          "$value": "-72"
+        },
+        "negative-88": {
+          "$type": "sizing",
+          "$value": "-88"
+        }
+      }
+    }
+  }
+}

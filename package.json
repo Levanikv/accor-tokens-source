@@ -1,0 +1,14 @@
+{
+  "name": "accor-tokens-source",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/buildThemes.js",
+    "release": "node scripts/release.js"
+  },
+  "dependencies": {
+    "@tokens-studio/sd-transforms": "^2.0.3",
+    "style-dictionary": "^5.4.0"
+  }
+}

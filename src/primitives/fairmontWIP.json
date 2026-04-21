@@ -1,0 +1,270 @@
+{
+  "wel": {
+    "prim": {
+      "color": {
+        "functional": {
+          "amazonGreen": {
+            "24": {
+              "$type": "color",
+              "$value": "#004323"
+            },
+            "39": {
+              "$type": "color",
+              "$value": "#286841"
+            },
+            "97": {
+              "$type": "color",
+              "$value": "#DDFFE3"
+            },
+            "98": {
+              "$type": "color",
+              "$value": "#E9FFEB"
+            }
+          },
+          "firebrickRed": {
+            "20": {
+              "$type": "color",
+              "$value": "#690002"
+            },
+            "25": {
+              "$type": "color",
+              "$value": "#7E0004"
+            },
+            "30": {
+              "$type": "color",
+              "$value": "#8F110D"
+            },
+            "40": {
+              "$type": "color",
+              "$value": "#B12C23"
+            },
+            "50": {
+              "$type": "color",
+              "$value": "#D34538"
+            },
+            "83": {
+              "$type": "color",
+              "$value": "#FFBFB8"
+            },
+            "93": {
+              "$type": "color",
+              "$value": "#FFE5E1"
+            }
+          },
+          "naplesYellow": {
+            "29": {
+              "$type": "color",
+              "$value": "#534300"
+            },
+            "85": {
+              "$type": "color",
+              "$value": "#F5D055"
+            },
+            "94": {
+              "$type": "color",
+              "$value": "#FFEDBD"
+            }
+          }
+        },
+        "alpha": {
+          "black": {
+            "0": {
+              "$type": "color",
+              "$value": "rgba(0, 0, 0, 0)"
+            },
+            "5": {
+              "$type": "color",
+              "$value": "rgba(0, 0, 0, 0.05)"
+            },
+            "30": {
+              "$type": "color",
+              "$value": "rgba(0, 0, 0, 0.30)"
+            },
+            "54": {
+              "$type": "color",
+              "$value": "rgba(0, 0, 0, 0.54)"
+            },
+            "70": {
+              "$type": "color",
+              "$value": "rgba(0, 0, 0, 0.70)"
+            },
+            "100": {
+              "$type": "color",
+              "$value": "rgba(0, 0, 0, 1.00)"
+            }
+          },
+          "white": {
+            "0": {
+              "$type": "color",
+              "$value": "rgba(255, 255, 255, 0.00)"
+            },
+            "5": {
+              "$type": "color",
+              "$value": "rgba(255, 255, 255, 0.05)"
+            },
+            "20": {
+              "$type": "color",
+              "$value": "rgba(255, 255, 255, 0.20)"
+            },
+            "30": {
+              "$type": "color",
+              "$value": "rgba(255, 255, 255, 0.20)"
+            },
+            "54": {
+              "$type": "color",
+              "$value": "rgba(255, 255, 255, 0.54)"
+            },
+            "70": {
+              "$type": "color",
+              "$value": "rgba(255, 255, 255, 0.70)"
+            },
+            "90": {
+              "$type": "color",
+              "$value": "rgba(255, 255, 255, 0.90)"
+            },
+            "100": {
+              "$type": "color",
+              "$value": "rgba(255, 255, 255, 1.00)"
+            }
+          }
+        },
+        "brand": {
+          "racingGreen": {
+            "24": {
+              "$type": "color",
+              "$value": "#00430E"
+            }
+          },
+          "carminePink": {
+            "20": {
+              "$type": "color",
+              "$value": "#66002B"
+            },
+            "25": {
+              "$type": "color",
+              "$value": "#7A0035"
+            },
+            "33": {
+              "$type": "color",
+              "$value": "#990D46"
+            }
+          },
+          "caviarBlack": {
+            "0": {
+              "$type": "color",
+              "$value": "#000000"
+            },
+            "19": {
+              "$type": "color",
+              "$value": "#2D2F30"
+            },
+            "24": {
+              "$type": "color",
+              "$value": "#383A3B"
+            },
+            "28": {
+              "$type": "color",
+              "$value": "#414344"
+            },
+            "46": {
+              "$type": "color",
+              "$value": "#6B6D6D"
+            },
+            "63": {
+              "$type": "color",
+              "$value": "#989999"
+            },
+            "82": {
+              "$type": "color",
+              "$value": "#CCCCCC"
+            },
+            "90": {
+              "$type": "color",
+              "$value": "#E3E3E3"
+            },
+            "97": {
+              "$type": "color",
+              "$value": "#F6F6F6"
+            },
+            "100": {
+              "$type": "color",
+              "$value": "#FFFFFF"
+            }
+          },
+          "lightSky": {
+            "28": {
+              "$type": "color",
+              "$value": "#384449"
+            },
+            "94": {
+              "$type": "color",
+              "$value": "#E3F0F6"
+            }
+          },
+          "magnolia": {
+            "7": {
+              "$type": "color",
+              "$value": "#14142A"
+            },
+            "97": {
+              "$type": "color",
+              "$value": "#F8F5FF"
+            }
+          },
+          "philippineGrey": {
+            "37": {
+              "$type": "color",
+              "$value": "#565759"
+            },
+            "47": {
+              "$type": "color",
+              "$value": "#6E6F72"
+            },
+            "58": {
+              "$type": "color",
+              "$value": "#898B8E"
+            },
+            "72": {
+              "$type": "color",
+              "$value": "#B0B1B3"
+            },
+            "87": {
+              "$type": "color",
+              "$value": "#D9DADD"
+            }
+          },
+          "popYellow": {
+            "97": {
+              "$type": "color",
+              "$value": "#FBFF20"
+            }
+          },
+          "russianBlue": {
+            "35": {
+              "$type": "color",
+              "$value": "#3B556C"
+            }
+          },
+          "teaGreen": {
+            "34": {
+              "$type": "color",
+              "$value": "#3F563F"
+            },
+            "82": {
+              "$type": "color",
+              "$value": "#BAD3B7"
+            },
+            "88": {
+              "$type": "color",
+              "$value": "#CAE4C7"
+            },
+            "92": {
+              "$type": "color",
+              "$value": "#D4EED0"
+            }
+          }
+        }
+      }
+    }
+  }
+}

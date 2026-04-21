@@ -1,0 +1,502 @@
+{
+  "wel": {
+    "sem": {
+      "text": {
+        "breakpointName": {
+          "$type": "text",
+          "$value": "desktop-md (1280-1439)",
+          "$description": "String variable to bind the component’s breakpoint property to the breakpoint variable from the 🌈 [platform] Appearances Library. Learn more in the documentation https://design.accor.com/latest/get-started/designing/using-templates/guide-6MiFCQRw#section-adding-components-e7"
+        }
+      },
+      "spacingDynamic": {
+        "inline": {
+          "xl": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingDynamic.desktopMD.inline.xl}",
+            "$description": "The dynamic inline space tokens provide responsive spacing values for inline elements."
+          },
+          "3xl": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingDynamic.desktopMD.inline.3xl}",
+            "$description": "The dynamic inline space tokens provide responsive spacing values for inline elements."
+          },
+          "4xl": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingDynamic.desktopMD.inline.4xl}",
+            "$description": "The dynamic inline space tokens provide responsive spacing values for inline elements."
+          },
+          "6xl": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingDynamic.desktopMD.inline.6xl}",
+            "$description": "The dynamic inline space tokens provide responsive spacing values for inline elements."
+          }
+        },
+        "stack": {
+          "md": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingDynamic.desktopMD.stack.md}",
+            "$description": "The dynamic stack space tokens provide responsive spacing values for vertical aligned elements."
+          },
+          "lg": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingDynamic.desktopMD.stack.lg}",
+            "$description": "The dynamic stack space tokens provide responsive spacing values for vertical aligned elements."
+          },
+          "xl": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingDynamic.desktopMD.stack.xl}",
+            "$description": "The dynamic stack space tokens provide responsive spacing values for vertical aligned elements."
+          },
+          "2xl": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingDynamic.desktopMD.stack.2xl}",
+            "$description": "The dynamic stack space tokens provide responsive spacing values for vertical aligned elements."
+          },
+          "3xl": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingDynamic.desktopMD.stack.3xl}",
+            "$description": "The dynamic stack space tokens provide responsive spacing values for vertical aligned elements."
+          },
+          "4xl": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingDynamic.desktopMD.stack.4xl}",
+            "$description": "The dynamic stack space tokens provide responsive spacing values for vertical aligned elements."
+          },
+          "5xl": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingDynamic.desktopMD.stack.5xl}",
+            "$description": "The dynamic stack space tokens provide responsive spacing values for vertical aligned elements."
+          }
+        },
+        "inset": {
+          "xl": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingDynamic.desktopMD.inset.xl}",
+            "$description": "The dynamic inset space tokens provide responsive spacing values for homogeneous padding elements."
+          },
+          "2xl": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingDynamic.desktopMD.inset.2xl}",
+            "$description": "The dynamic inset space tokens provide responsive spacing values for homogeneous padding elements."
+          },
+          "3xl": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingDynamic.desktopMD.inset.3xl}",
+            "$description": "The dynamic inset space tokens provide responsive spacing values for homogeneous padding elements."
+          },
+          "4xl": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingDynamic.desktopMD.inset.4xl}",
+            "$description": "The dynamic inset space tokens provide responsive spacing values for homogeneous padding elements."
+          },
+          "5xl": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingDynamic.desktopMD.inset.5xl}",
+            "$description": "The dynamic inset space tokens provide responsive spacing values for homogeneous padding elements."
+          }
+        },
+        "insetSquish": {
+          "3xl-h": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingDynamic.desktopMD.insetSquish.3xl-h}",
+            "$description": "The dynamic insetSquish space tokens provide responsive spacing values for non homogeneous padding elements - resulting in a visually squished layout."
+          },
+          "3xl-v": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingDynamic.desktopMD.insetSquish.3xl-v}",
+            "$description": "The dynamic insetSquish space tokens provide responsive spacing values for non homogeneous padding elements - resulting in a visually squished layout."
+          },
+          "6xl-h": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingDynamic.desktopMD.insetSquish.6xl-h}",
+            "$description": "The dynamic insetSquish space tokens provide responsive spacing values for non homogeneous padding elements - resulting in a visually squished layout."
+          },
+          "6xl-v": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingDynamic.desktopMD.insetSquish.6xl-v}",
+            "$description": "The dynamic insetSquish space tokens provide responsive spacing values for non homogeneous padding elements - resulting in a visually squished layout."
+          }
+        },
+        "insetStretch": {
+          "xl-h": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingDynamic.desktopMD.insetStretch.xl-h}",
+            "$description": "The dynamic insetStretch space tokens provide responsive spacing values for non homogeneous padding elements - resulting in a visually squished layout."
+          },
+          "xl-v": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingDynamic.desktopMD.insetStretch.xl-v}",
+            "$description": "The dynamic insetStretch space tokens provide responsive spacing values for non homogeneous padding elements - resulting in a visually squished layout."
+          },
+          "2xl-h": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingDynamic.desktopMD.insetStretch.2xl-h}",
+            "$description": "The dynamic insetStretch space tokens provide responsive spacing values for non homogeneous padding elements - resulting in a visually squished layout."
+          },
+          "2xl-v": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingDynamic.desktopMD.insetStretch.2xl-v}",
+            "$description": "The dynamic insetStretch space tokens provide responsive spacing values for non homogeneous padding elements - resulting in a visually squished layout."
+          },
+          "4xl-h": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingDynamic.desktopMD.insetStretch.4xl-h}",
+            "$description": "The dynamic insetStretch space tokens provide responsive spacing values for non homogeneous padding elements - resulting in a visually squished layout."
+          },
+          "4xl-v": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingDynamic.desktopMD.insetStretch.4xl-v}",
+            "$description": "The dynamic insetStretch space tokens provide responsive spacing values for non homogeneous padding elements - resulting in a visually squished layout."
+          }
+        },
+        "pinchVertical": {
+          "xl": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingDynamic.desktopMD.pinchVertical.xl}",
+            "$description": "Minimim space applied only on the top and/or bottom of an element that dynamically varies from one breakpoint to another."
+          },
+          "2xl": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingDynamic.desktopMD.pinchVertical.2xl}",
+            "$description": "Standard space applied only on the top and/or bottom of an element that dynamically varies from one breakpoint to another."
+          },
+          "3xl": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingDynamic.desktopMD.pinchVertical.3xl}",
+            "$description": "Extra large space applied only on the top and/or bottom of an element that dynamically varies from one breakpoint to another."
+          },
+          "4xl": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingDynamic.desktopMD.pinchVertical.4xl}",
+            "$description": "Twice extra large space applied only on the top and/or bottom of an element that dynamically varies from one breakpoint to another."
+          },
+          "5xl": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingDynamic.desktopMD.pinchVertical.5xl}",
+            "$description": "Maximum space applied only on the top and/or bottom of an element that dynamically varies from one breakpoint to another."
+          }
+        },
+        "page": {
+          "beforeFooter": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingDynamic.desktopMD.page.beforeFooter}",
+            "$description": "Spacing before the page footer."
+          },
+          "afterHeader": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingDynamic.desktopMD.page.afterHeader}",
+            "$description": "Spacing after the main page header."
+          },
+          "withinPage": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingDynamic.desktopMD.page.withinPage}",
+            "$description": "Standard spacing between major page sections."
+          }
+        },
+        "withinSection": {
+          "xl": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingDynamic.desktopMD.withinSection.xl}",
+            "$description": "Small spacing within sections for tight groupings."
+          },
+          "2xl": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingDynamic.desktopMD.withinSection.2xl}",
+            "$description": "Medium spacing within sections for standard groupings."
+          },
+          "3xl": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingDynamic.desktopMD.withinSection.3xl}",
+            "$description": "Large spacing within sections for loose groupings."
+          },
+          "4xl": {
+            "$type": "spacing",
+            "$value": "{wel.web.bSem.spacingDynamic.desktopMD.withinSection.4xl}",
+            "$description": "Extra large spacing within sections for maximum separation."
+          }
+        }
+      },
+      "sizing": {
+        "grid": {
+          "margins": {
+            "$type": "sizing",
+            "$value": "{wel.prim.sizing.positive-64}",
+            "$description": "margins width"
+          },
+          "gutter": {
+            "$type": "sizing",
+            "$value": "{wel.prim.sizing.positive-24}",
+            "$description": "gutter width"
+          },
+          "columns": {
+            "$type": "sizing",
+            "$value": "{wel.prim.sizing.positive-12}",
+            "$description": "column width"
+          }
+        }
+      },
+      "fontSizes": {
+        "display": {
+          "xs": {
+            "$type": "fontSizes",
+            "$value": "{wel.web.bSem.fontSizes.desktopMD.display.xs}",
+            "$description": "Smallest display font size. Used for display-06 typography style."
+          },
+          "sm": {
+            "$type": "fontSizes",
+            "$value": "{wel.web.bSem.fontSizes.desktopMD.display.sm}",
+            "$description": "Fifth display font size. Used for display-05 typography style."
+          },
+          "md": {
+            "$type": "fontSizes",
+            "$value": "{wel.web.bSem.fontSizes.desktopMD.display.md}",
+            "$description": "Fourth display font size. Used for display-04 typography style."
+          },
+          "lg": {
+            "$type": "fontSizes",
+            "$value": "{wel.web.bSem.fontSizes.desktopMD.display.lg}",
+            "$description": "Third display font size. Used for display-03 typography style."
+          },
+          "xl": {
+            "$type": "fontSizes",
+            "$value": "{wel.web.bSem.fontSizes.desktopMD.display.xl}",
+            "$description": "Second display font size. Used for display-02 typography style."
+          },
+          "2xl": {
+            "$type": "fontSizes",
+            "$value": "{wel.web.bSem.fontSizes.desktopMD.display.2xl}",
+            "$description": "Highest display font size. Used for display-01 typography style."
+          }
+        },
+        "title": {
+          "sm": {
+            "$type": "fontSizes",
+            "$value": "{wel.web.bSem.fontSizes.desktopMD.title.sm}",
+            "$description": "Smallest title font size. Used for title-02 typography style."
+          },
+          "md": {
+            "$type": "fontSizes",
+            "$value": "{wel.web.bSem.fontSizes.desktopMD.title.md}",
+            "$description": "Medium title font size. Used for title-03 typography style."
+          },
+          "lg": {
+            "$type": "fontSizes",
+            "$value": "{wel.web.bSem.fontSizes.desktopMD.title.lg}",
+            "$description": "Highest title font size. Used for title-01 typography style."
+          }
+        },
+        "subtitle": {
+          "md": {
+            "$type": "fontSizes",
+            "$value": "{wel.web.bSem.fontSizes.desktopMD.subtitle.md}",
+            "$description": "Smallest subtitle font size. Used for sub-02 typography style."
+          },
+          "lg": {
+            "$type": "fontSizes",
+            "$value": "{wel.web.bSem.fontSizes.desktopMD.subtitle.lg}",
+            "$description": "Highest subtitle font size. Used for sub-01 typography style."
+          }
+        },
+        "body": {
+          "sm": {
+            "$type": "fontSizes",
+            "$value": "{wel.web.bSem.fontSizes.desktopMD.body.sm}",
+            "$description": "Smallest body font size. Used for body-[font-style]-02 typography style."
+          },
+          "md": {
+            "$type": "fontSizes",
+            "$value": "{wel.web.bSem.fontSizes.desktopMD.body.md}",
+            "$description": "Highest body font size. Used for body-[font-style]-01 typography style."
+          }
+        },
+        "caption": {
+          "$type": "fontSizes",
+          "$value": "{wel.web.bSem.fontSizes.desktopMD.caption}",
+          "$description": "Default caption font size used for caption-[font-style] typography style."
+        },
+        "detail": {
+          "$type": "fontSizes",
+          "$value": "{wel.web.bSem.fontSizes.desktopMD.detail}",
+          "$description": "Default detail font size used for details typography style."
+        },
+        "label": {
+          "sm": {
+            "$type": "fontSizes",
+            "$value": "{wel.web.bSem.fontSizes.desktopMD.label.sm}",
+            "$description": "Smallest label font size. Used for label-[font-style]-03 typography style."
+          },
+          "md": {
+            "$type": "fontSizes",
+            "$value": "{wel.web.bSem.fontSizes.desktopMD.label.md}",
+            "$description": "Medium label font size. Used for label-[font-style]-02 typography style."
+          },
+          "lg": {
+            "$type": "fontSizes",
+            "$value": "{wel.web.bSem.fontSizes.desktopMD.label.lg}",
+            "$description": "Highest label font size. Used for label-[font-style]-01 typography style."
+          }
+        },
+        "input": {
+          "sm": {
+            "$type": "fontSizes",
+            "$value": "{wel.web.bSem.fontSizes.desktopMD.input.sm}",
+            "$description": "Smallest input font size. Used for input-[font-style]-03 typography style."
+          },
+          "md": {
+            "$type": "fontSizes",
+            "$value": "{wel.web.bSem.fontSizes.desktopMD.input.md}",
+            "$description": "Medium input font size. Used for input-[font-style]-02 typography style."
+          },
+          "lg": {
+            "$type": "fontSizes",
+            "$value": "{wel.web.bSem.fontSizes.desktopMD.input.lg}",
+            "$description": "Highest input font size. Used for input-[font-style]-01 typography style."
+          }
+        },
+        "link": {
+          "sm": {
+            "$type": "fontSizes",
+            "$value": "{wel.web.bSem.fontSizes.desktopMD.link.sm}",
+            "$description": "Smallest link font size. Used for link-[font-style]-02 typography style."
+          },
+          "md": {
+            "$type": "fontSizes",
+            "$value": "{wel.web.bSem.fontSizes.desktopMD.link.md}",
+            "$description": "Highest link font size. Used for link-[font-style]-01 typography style."
+          }
+        }
+      },
+      "lineHeights": {
+        "display": {
+          "xs": {
+            "$type": "lineHeights",
+            "$value": "{wel.web.bSem.lineHeights.desktopMD.display.xs}",
+            "$description": "Sixth display line height. Used for display-06 typography style."
+          },
+          "sm": {
+            "$type": "lineHeights",
+            "$value": "{wel.web.bSem.lineHeights.desktopMD.display.sm}",
+            "$description": "Fifth display line height. Used for display-05 typography style."
+          },
+          "md": {
+            "$type": "lineHeights",
+            "$value": "{wel.web.bSem.lineHeights.desktopMD.display.md}",
+            "$description": "Fourth display line height. Used for display-04 typography style."
+          },
+          "lg": {
+            "$type": "lineHeights",
+            "$value": "{wel.web.bSem.lineHeights.desktopMD.display.lg}",
+            "$description": "Third display line height. Used for display-03 typography style."
+          },
+          "xl": {
+            "$type": "lineHeights",
+            "$value": "{wel.web.bSem.lineHeights.desktopMD.display.xl}",
+            "$description": "Second display line height. Used for display-02 typography style."
+          },
+          "2xl": {
+            "$type": "lineHeights",
+            "$value": "{wel.web.bSem.lineHeights.desktopMD.display.2xl}",
+            "$description": "Highest display line height. Used for display-01 typography style."
+          }
+        },
+        "title": {
+          "sm": {
+            "$type": "lineHeights",
+            "$value": "{wel.web.bSem.lineHeights.desktopMD.title.sm}",
+            "$description": "Smallest title line height. Used for title-03 typography style."
+          },
+          "md": {
+            "$type": "lineHeights",
+            "$value": "{wel.web.bSem.lineHeights.desktopMD.title.md}",
+            "$description": "Medium title line height. Used for title-02 typography style."
+          },
+          "lg": {
+            "$type": "lineHeights",
+            "$value": "{wel.web.bSem.lineHeights.desktopMD.title.lg}",
+            "$description": "Highest title  lineheight. Used for title-01 typography style."
+          }
+        },
+        "subtitle": {
+          "md": {
+            "$type": "lineHeights",
+            "$value": "{wel.web.bSem.lineHeights.desktopMD.subtitle.md}",
+            "$description": "Smallest subtitle line height. Used for sub-02 typography style."
+          },
+          "lg": {
+            "$type": "lineHeights",
+            "$value": "{wel.web.bSem.lineHeights.desktopMD.subtitle.lg}",
+            "$description": "Highest subtitle line height. Used for sub-01 typography style."
+          }
+        },
+        "body": {
+          "sm": {
+            "$type": "lineHeights",
+            "$value": "{wel.web.bSem.lineHeights.desktopMD.body.sm}",
+            "$description": "Smallest body line height. Used for body-[font-style]-01 typography style."
+          },
+          "md": {
+            "$type": "lineHeights",
+            "$value": "{wel.web.bSem.lineHeights.desktopMD.body.md}",
+            "$description": "Highest body line height. Used for body-[font-style]-01 typography style."
+          }
+        },
+        "caption": {
+          "$type": "lineHeights",
+          "$value": "{wel.web.bSem.lineHeights.desktopMD.caption}",
+          "$description": "Default caption line height used for caption-[font-style] typography style."
+        },
+        "detail": {
+          "$type": "lineHeights",
+          "$value": "{wel.web.bSem.lineHeights.desktopMD.detail}",
+          "$description": "Default detail line height used for details typography style."
+        },
+        "label": {
+          "sm": {
+            "$type": "lineHeights",
+            "$value": "{wel.web.bSem.lineHeights.desktopMD.label.sm}",
+            "$description": "Smallest label line height. Used for label-[font-style]-03 typography style."
+          },
+          "md": {
+            "$type": "lineHeights",
+            "$value": "{wel.web.bSem.lineHeights.desktopMD.label.md}",
+            "$description": "Medium label line height. Used for label-[font-style]-02 typography style."
+          },
+          "lg": {
+            "$type": "lineHeights",
+            "$value": "{wel.web.bSem.lineHeights.desktopMD.label.lg}",
+            "$description": "Highest label line height. Used for label-[font-style]-01 typography style."
+          }
+        },
+        "input": {
+          "sm": {
+            "$type": "lineHeights",
+            "$value": "{wel.web.bSem.lineHeights.desktopMD.input.sm}",
+            "$description": "Smallest input line height. Used for input-[font-style]-03 typography style."
+          },
+          "md": {
+            "$type": "lineHeights",
+            "$value": "{wel.web.bSem.lineHeights.desktopMD.input.md}",
+            "$description": "Medium input line height. Used for input-[font-style]-02 typography style."
+          },
+          "lg": {
+            "$type": "lineHeights",
+            "$value": "{wel.web.bSem.lineHeights.desktopMD.input.lg}",
+            "$description": "Highest input line height. Used for input-[font-style]-01 typography style."
+          }
+        },
+        "link": {
+          "sm": {
+            "$type": "lineHeights",
+            "$value": "{wel.web.bSem.lineHeights.desktopMD.link.sm}",
+            "$description": "Smallest link line height. Used for body-[font-style]-01 typography style."
+          },
+          "md": {
+            "$type": "lineHeights",
+            "$value": "{wel.web.bSem.lineHeights.desktopMD.link.md}",
+            "$description": "Highest link line height. Used for body-[font-style]-01 typography style."
+          }
+        }
+      }
+    }
+  }
+}

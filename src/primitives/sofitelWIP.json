@@ -1,0 +1,286 @@
+{
+  "wel": {
+    "prim": {
+      "color": {
+        "alpha": {
+          "black": {
+            "20": {
+              "$type": "color",
+              "$value": "rgba(0, 0, 0, 0.2)"
+            },
+            "30": {
+              "$type": "color",
+              "$value": "rgba(0, 0, 0, 0.3)"
+            },
+            "54": {
+              "$type": "color",
+              "$value": "rgba(0, 0, 0, 0.54)"
+            },
+            "70": {
+              "$type": "color",
+              "$value": "rgba(0, 0, 0, 0.7)"
+            },
+            "90": {
+              "$type": "color",
+              "$value": "rgba(0, 0, 0, 0.9)"
+            },
+            "100": {
+              "$type": "color",
+              "$value": "rgba(0, 0, 0, 1)"
+            },
+            "00": {
+              "$type": "color",
+              "$value": "rgba(0, 0, 0, 0)"
+            },
+            "05": {
+              "$type": "color",
+              "$value": "rgba(0, 0, 0, 0.05)"
+            }
+          },
+          "white": {
+            "100": {
+              "$type": "color",
+              "$value": "rgba(255, 255, 255, 1)"
+            },
+            "00": {
+              "$type": "color",
+              "$value": "rgba(255, 255, 255, 0)"
+            },
+            "05": {
+              "$type": "color",
+              "$value": "rgba(255, 255, 255, 0.05)"
+            }
+          }
+        },
+        "brand": {
+          "teaGreen": {
+            "34": {
+              "$type": "color",
+              "$value": "#3F563F"
+            },
+            "82": {
+              "$type": "color",
+              "$value": "#BAD3B7"
+            },
+            "88": {
+              "$type": "color",
+              "$value": "#CAE4C7"
+            },
+            "92": {
+              "$type": "color",
+              "$value": "#D4EED0"
+            }
+          }
+        },
+        "green": {
+          "44": {
+            "$type": "color",
+            "$value": "#117846"
+          },
+          "57": {
+            "$type": "color",
+            "$value": "#3E9A64"
+          },
+          "98": {
+            "$type": "color",
+            "$value": "#E9FFEC"
+          }
+        },
+        "macassar": {
+          "13": {
+            "$type": "color",
+            "$value": "#29201E"
+          },
+          "18": {
+            "$type": "color",
+            "$value": "#342A28"
+          },
+          "22": {
+            "$type": "color",
+            "$value": "#3D3231"
+          },
+          "27": {
+            "$type": "color",
+            "$value": "#483D3C"
+          },
+          "31": {
+            "$type": "color",
+            "$value": "#524745"
+          },
+          "48": {
+            "$type": "color",
+            "$value": "#7C6F6D"
+          }
+        },
+        "neutral": {
+          "15": {
+            "$type": "color",
+            "$value": "#252624"
+          },
+          "26": {
+            "$type": "color",
+            "$value": "#3D3E3C"
+          },
+          "47": {
+            "$type": "color",
+            "$value": "#6F706E"
+          },
+          "58": {
+            "$type": "color",
+            "$value": "#8B8C89"
+          },
+          "87": {
+            "$type": "color",
+            "$value": "#DBDAD7"
+          },
+          "91": {
+            "$type": "color",
+            "$value": "#E6E5E2"
+          },
+          "93": {
+            "$type": "color",
+            "$value": "#ECEBE8"
+          },
+          "95": {
+            "$type": "color",
+            "$value": "#F2F1EE"
+          },
+          "97": {
+            "$type": "color",
+            "$value": "#F7F6F3"
+          },
+          "100": {
+            "$type": "color",
+            "$value": "#FFFFFF"
+          },
+          "01": {
+            "$type": "color",
+            "$value": "#030403"
+          }
+        },
+        "pink": {
+          "33": {
+            "$type": "color",
+            "$value": "#9E0037"
+          },
+          "39": {
+            "$type": "color",
+            "$value": "#B90042"
+          },
+          "45": {
+            "$type": "color",
+            "$value": "#D4024D"
+          },
+          "56": {
+            "$type": "color",
+            "$value": "#FC3267"
+          },
+          "92": {
+            "$type": "color",
+            "$value": "#FFE1E3"
+          }
+        },
+        "red": {
+          "28": {
+            "$type": "color",
+            "$value": "#8A0005"
+          },
+          "37": {
+            "$type": "color",
+            "$value": "#AE1413"
+          },
+          "40": {
+            "$type": "color",
+            "$value": "#BA1F1A"
+          },
+          "52": {
+            "$type": "color",
+            "$value": "#E43E33"
+          },
+          "93": {
+            "$type": "color",
+            "$value": "#FFE5E2"
+          }
+        },
+        "vintageGold": {
+          "31": {
+            "$type": "color",
+            "$value": "#60431A"
+          },
+          "37": {
+            "$type": "color",
+            "$value": "#705126"
+          },
+          "43": {
+            "$type": "color",
+            "$value": "#805F33"
+          },
+          "49": {
+            "$type": "color",
+            "$value": "#916F41"
+          },
+          "63": {
+            "$type": "color",
+            "$value": "#B89261"
+          }
+        },
+        "alpha08": {
+          "vintageGold": {
+            "49": {
+              "$type": "color",
+              "$value": "rgba(145, 111, 65, 0.08)"
+            },
+            "63": {
+              "$type": "color",
+              "$value": "rgba(184, 146, 97, 0.08)"
+            }
+          }
+        },
+        "alpha16": {
+          "vintageGold": {
+            "49": {
+              "$type": "color",
+              "$value": "rgba(145, 111, 65, 0.16)"
+            },
+            "63": {
+              "$type": "color",
+              "$value": "rgba(184, 146, 97, 0.16)"
+            }
+          }
+        },
+        "whisper": {
+          "10": {
+            "$type": "color",
+            "$value": "#181C21"
+          },
+          "95": {
+            "$type": "color",
+            "$value": "#EEF1F8"
+          },
+          "99": {
+            "$type": "color",
+            "$value": "#FCFCFF"
+          }
+        },
+        "yellow": {
+          "85": {
+            "$type": "color",
+            "$value": "#F2D166"
+          },
+          "90": {
+            "$type": "color",
+            "$value": "#FFE081"
+          },
+          "94": {
+            "$type": "color",
+            "$value": "#FFEDBA"
+          },
+          "97": {
+            "$type": "color",
+            "$value": "#FFF6E4"
+          }
+        }
+      }
+    }
+  }
+}

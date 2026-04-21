@@ -1,0 +1,31 @@
+{
+  "tokenSetOrder": [
+    "primitives/numbers",
+    "primitives/all",
+    "primitives/movenpick",
+    "primitives/rafflesWIP",
+    "primitives/fairmontWIP",
+    "primitives/novotelWIP",
+    "primitives/ibisWIP",
+    "primitives/sofitelWIP",
+    "primitives/pullmanWIP",
+    "primitives/handwrittenWIP",
+    "brands/all",
+    "brands/brandBook",
+    "brands/movenpick",
+    "brands/sofitelWIP",
+    "brands/rafflesWIP",
+    "brands/ibisWIP",
+    "brands/fairmontWIP",
+    "brands/pullmanWIP",
+    "brands/novotelWIP",
+    "brands/handwrittenWIP",
+    "colorModes/light",
+    "colorModes/dark",
+    "breakpoints/crossBreakpoints",
+    "breakpoints/desktop-md (1280-1439)",
+    "breakpoints/desktop-sm (1024-1279)",
+    "breakpoints/tablet (768-1023)",
+    "breakpoints/mobile (320-767)"
+  ]
+}
