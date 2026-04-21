@@ -55,7 +55,7 @@ try {
     env: { ...process.env, DIST_DIR: tmpDir },
   });
 
-  run(`git add -A android ios iOS`, { cwd: tmpDir });
+  run(`git add -A`, { cwd: tmpDir });
   const status = runQuiet(`git status --porcelain`, { cwd: tmpDir });
   if (!status) {
     console.log('✨ No changes — nothing to PR.');
