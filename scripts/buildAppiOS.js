@@ -104,6 +104,95 @@ StyleDictionary.registerFormat({
   }
 });
 
+// Swift variable name overrides (avoid collisions with SwiftUI built-ins).
+const SWIFT_NAME_OVERRIDES = {
+  primary: 'accorPrimary',
+};
+
+// Section config: MARK label + match function. Order matters — earlier sections
+// claim tokens first, so generic "Outline" sits after the per-family sections.
+const SWIFT_SECTIONS = [
+  { mark: 'Accent', match: n => n === 'accent' || n === 'onAccent' || n === 'onAccentContainer' || n === 'outlineAccent' || n.startsWith('accentContainer') },
+  { mark: 'All', match: n => n === 'allPrimary' || /^all(Hi|HiVariant|Low|Min)$/.test(n) },
+  { mark: 'Danger', match: n => n === 'danger' || n === 'onDanger' || n === 'outlineDanger' || n.startsWith('dangerContainer') || n.startsWith('onDangerContainer') },
+  { mark: 'Eco', match: n => n === 'eco' || n === 'onEco' || n === 'outlineEco' || n.startsWith('ecoContainer') || n.startsWith('onEcoContainer') },
+  { mark: 'Family', match: n => n === 'family' || n === 'onFamily' || n === 'outlineFamily' || n.startsWith('familyContainer') || n.startsWith('onFamilyContainer') },
+  { mark: 'Gradient', match: n => n.startsWith('gradient') },
+  { mark: 'Link', match: n => n === 'link' || n === 'onLink' },
+  { mark: 'Loyalty', match: n => n === 'loyalty' || n === 'onLoyalty' || n === 'outlineLoyalty' || n.startsWith('loyaltyContainer') || n.startsWith('onLoyaltyContainer') },
+  { mark: 'Loyalty Status', match: n => /^(classic|silver|gold|platinum|diamond|limitless)(GradientStart|GradientEnd)?$/.test(n) },
+  { mark: 'Offer', match: n => n === 'offer' || n === 'onOffer' || n === 'outlineOffer' || n.startsWith('offerContainer') || n.startsWith('onOfferContainer') },
+  { mark: 'Outline', match: n => ['outlineHi', 'outlineMid', 'outlineLow', 'outlinePrimaryHi', 'outlinePrimaryLow', 'outlineSecondary', 'strokeVoucher'].includes(n) },
+  { mark: 'Overlay', match: n => n.startsWith('overlay') },
+  { mark: 'Primary', match: n => n === 'primary' || n === 'onPrimary' || n === 'onPrimaryContainer' || n.startsWith('primaryContainer') },
+  { mark: 'Secondary', match: n => n === 'secondaryContainer' || n === 'onSecondaryContainer' },
+  { mark: 'Shadow', match: n => n.startsWith('shadow') },
+  { mark: 'State', match: n => n === 'focus' },
+  { mark: 'Success', match: n => n === 'success' || n === 'onSuccess' || n === 'outlineSuccess' || n.startsWith('successContainer') || n.startsWith('onSuccessContainer') },
+  { mark: 'Surface', match: n => n === 'surface' || n.startsWith('surfaceContainer') || n.startsWith('onSurface') },
+  { mark: 'Warning', match: n => n === 'warning' || n === 'onWarning' || n === 'onWarningContainer' || n === 'outlineWarning' || n.startsWith('warningContainer') },
+];
+
+function writeColorsSwift(outputDir) {
+  const styleguidesDir = path.join(outputDir, 'Styleguides');
+  fs.mkdirSync(styleguidesDir, { recursive: true });
+
+  // Keep source-order of tokens (colorModes JSON order) within each section
+  const orderedNames = Array.from(iosColorsMap.entries())
+    .filter(([, data]) => data.light)
+    .sort((a, b) => a[1].order - b[1].order)
+    .map(([name]) => name);
+
+  const assigned = new Set();
+  const sections = [];
+  for (const { mark, match } of SWIFT_SECTIONS) {
+    const tokens = orderedNames.filter(n => !assigned.has(n) && match(n));
+    if (!tokens.length) continue;
+    tokens.forEach(t => assigned.add(t));
+    sections.push({ mark, tokens });
+  }
+  const other = orderedNames.filter(n => !assigned.has(n));
+  if (other.length) sections.push({ mark: 'Other', tokens: other });
+
+  const lines = [
+    '//',
+    '//  Colors.swift',
+    '//  AccorAllDesignSystem',
+    '//',
+    '//  Generated automatically from design tokens — do not edit by hand.',
+    '//',
+    '',
+    'import SwiftUI',
+    '',
+    'public extension Color {',
+  ];
+
+  sections.forEach((section, i) => {
+    lines.push(`    // MARK: - ${section.mark}`);
+    lines.push('');
+    for (const token of section.tokens) {
+      const varName = SWIFT_NAME_OVERRIDES[token] || token;
+      lines.push(`    static let ${varName} = Color("${token}", bundle: .designSystem)`);
+    }
+    if (i < sections.length - 1) lines.push('');
+  });
+
+  lines.push(
+    '}',
+    '',
+    'public extension Color {',
+    '    static func dynamic(light: UIColor, dark: UIColor) -> Color {',
+    '        Color(UIColor { trait in',
+    '            trait.userInterfaceStyle == .dark ? dark : light',
+    '        })',
+    '    }',
+    '}',
+    ''
+  );
+
+  fs.writeFileSync(path.join(styleguidesDir, 'Colors.swift'), lines.join('\n'));
+}
+
 function writeXcassets(outputDir) {
   const xcassetsDir = path.join(outputDir, 'Colors.xcassets');
 
@@ -173,10 +262,12 @@ export async function buildAppiOS() {
   }
 
   const count = writeXcassets(iosDir);
+  writeColorsSwift(iosDir);
 
   for (const f of ['_light_temp.txt', '_dark_temp.txt']) {
     try { fs.unlinkSync(path.join(iosDir, f)); } catch {}
   }
 
   console.log(`✅ iOS assets written to ${iosDir}/Colors.xcassets/ (${count} colorsets)`);
+  console.log(`✅ Swift styleguide written to ${iosDir}/Styleguides/Colors.swift`);
 }
