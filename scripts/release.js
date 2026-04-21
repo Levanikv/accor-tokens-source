@@ -36,9 +36,16 @@ try {
 
   console.log(`🌿 Creating branch ${branchName}`);
   run(`git checkout -b ${branchName}`, { cwd: tmpDir });
+  // Ensure folder case changes (e.g. ios → iOS) are visible on macOS
+  run(`git config core.ignorecase false`, { cwd: tmpDir });
 
-  // Wipe existing app outputs so renamed/removed tokens don't leave stale files
-  for (const sub of ['android', 'ios']) {
+  // Wipe existing app outputs via git rm so deletions are tracked in the index.
+  // fs.rmSync alone doesn't work on macOS (case-insensitive FS) for folder case
+  // changes like ios → iOS — git would never see the lowercase folder as removed.
+  for (const sub of ['android', 'ios', 'iOS']) {
+    try {
+      execSync(`git rm -rf --quiet --ignore-unmatch -- "${sub}"`, { cwd: tmpDir, stdio: 'ignore' });
+    } catch { /* folder wasn't tracked */ }
     fs.rmSync(path.join(tmpDir, sub), { recursive: true, force: true });
   }
 
@@ -48,7 +55,7 @@ try {
     env: { ...process.env, DIST_DIR: tmpDir },
   });
 
-  run(`git add -A android ios`, { cwd: tmpDir });
+  run(`git add -A android ios iOS`, { cwd: tmpDir });
   const status = runQuiet(`git status --porcelain`, { cwd: tmpDir });
   if (!status) {
     console.log('✨ No changes — nothing to PR.');

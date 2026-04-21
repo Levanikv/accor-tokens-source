@@ -13,7 +13,7 @@ const srcDir = path.resolve(rootDir, 'src');
 const distDir = process.env.DIST_DIR
   ? path.resolve(rootDir, process.env.DIST_DIR)
   : path.resolve(rootDir, 'dist');
-const iosDir = path.join(distDir, 'ios');
+const iosDir = path.join(distDir, 'iOS');
 
 const primitiveSource = path.join(srcDir, 'primitives/all.json');
 const brandBookSource = path.join(srcDir, 'brands/brandBook.json');

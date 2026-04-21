@@ -39,7 +39,7 @@ const appDistDir = process.env.DIST_DIR
   ? path.resolve(rootDir, process.env.DIST_DIR)
   : distDir;
 const androidDir = path.join(appDistDir, 'android');
-const iosDir = path.join(appDistDir, 'ios');
+const iosDir = path.join(appDistDir, 'iOS');
 const manifestPath = path.join(themeDir, 'manifest.json');
 
 // Register custom formats
