@@ -1,0 +1,35 @@
+name: Release on Token Studio push
+
+on:
+  push:
+    branches: [tokens-studio]
+  workflow_dispatch:
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.DIST_REPO_PAT }}
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Configure git credentials for cross-repo access
+        run: |
+          git config --global user.name "tokens-bot"
+          git config --global user.email "tokens@bot.local"
+          git config --global credential.helper store
+          echo "https://x-access-token:${{ secrets.DIST_REPO_PAT }}@github.com" > ~/.git-credentials
+
+      - name: Build and open PR on dist repo
+        env:
+          GH_TOKEN: ${{ secrets.DIST_REPO_PAT }}
+        run: node scripts/release.js
